@@ -1,0 +1,214 @@
+body{
+margin: 0px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.linkedin-top-logo{
+position: fixed;
+top: 34px;
+left: 55px;
+}
+.linkedin-logo{
+height: 27px;
+}
+.signin-container{
+box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+}
+.innerparts{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.title{
+font-family: "Source Sans 3", sans-serif;
+font-size: 30px;
+font-weight: 500;
+/* background-color: lightpink; */
+padding: 0px 200px 0px 25px;
+}
+.sign_in_btns{
+/* background-color: lightpink; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+row-gap: 10px;
+
+}
+.apple-btn,
+.google-btn{
+font-family: 'source san 3',sans-serif;
+color: rgb(73, 72, 72);
+background-color: white;
+font-size: 14px;
+text-align: center;
+vertical-align: center;
+padding: 10px 0px 10px 0px;
+width: 280px;
+border: 1px solid gray;
+border-radius: 20px;
+transition: border 0.15s,background-color 0.15s;
+cursor: pointer;
+margin: 0px 10px 0px 10px;
+}
+.apple-btn:hover{
+border: 2px solid gray;
+background-color: rgb(237, 237, 237);
+}
+.google-btn:hover{
+background-color: rgb(240, 243, 255);
+}
+.apple-logo,
+.google-logo{
+height: 16px;
+vertical-align: middle;
+}
+.separation-or{
+margin-top: 20px;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Source Sans 3", sans-serif;
+font-size: 13px;
+}
+.single-line{
+width: 290px;
+height: 1px;
+background-color: lightgray;
+}
+.or{
+display: flex;
+justify-content: center;
+position: absolute;
+width: 25px;
+margin-top:-2px;
+background-color: white;
+color: gray;
+}
+.signin-input{
+display: flex;
+flex-direction: column;
+/* background-color: lightpink; */
+}
+.inputs{
+/* background-color: lightblue; */
+display: flex;
+flex-direction:column;
+row-gap: 20px;
+align-items: center;
+}
+.password-input,
+.email-input{
+width: 280px;
+padding: 15px 0px 15px 10px;
+border-radius: 5px;
+border:1px solid gray; 
+}
+.forget-btn{
+display: flex;
+margin: 10px 0px 0px 0px;
+padding: 0px -0px 0px 15px;
+}
+.forgot-pass{
+font-family: "Source Sans 3", sans-serif;
+color: rgb(10, 100, 192);
+font-weight: 600;
+font-size: 15px;
+border-radius: 20px;
+border: none;
+padding: 5px;
+background-color: white;
+cursor: pointer;
+transition: background-color 0.15s, text-decoration 0.15s;
+}
+.forgot-pass:hover{
+background-color: rgb(199, 221, 249);
+text-decoration: underline;
+
+}
+.keep-login{
+font-family: "Source Sans 3", sans-serif;
+padding: 0px 0px 10px 10px;
+}
+.login-checkbox{
+background-color: rgb(10, 100, 192);
+zoom: 1.7;
+vertical-align: middle;
+}
+.signin-btn{
+display: flex;
+justify-content: center;
+}
+.sign_in_final_btn{
+font-weight: 500;
+width: 280px;
+padding: 14px 0px 14px 0px;
+color: white;
+background-color: rgb(10, 100, 192);
+border-radius:20px ;
+border: none;
+cursor: pointer;
+}
+.sign_in_final_btn:hover{
+background-color:rgb(7, 73, 138) ;
+}
+.new_to_linkedin{
+margin-top:34px;
+font-family: "Source Sans 3", sans-serif;
+}
+.join-btn{
+font-weight:500;
+text-decoration: none;
+color: rgb(10, 100, 192);
+padding:0px 5px 0px 5px;
+border-radius: 20px;
+transition: background-color 0.15s,text-decoration 0.15s;
+}
+.join-btn:hover{
+background-color: rgb(199, 221, 249);
+text-decoration: underline;
+}
+.bottom-section{
+display: flex;
+justify-content: center;
+margin-top: 710px;
+position:absolute;
+vertical-align: middle;
+
+}
+.details {
+display: flex;
+column-gap: 15px;
+color: gray;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 600;
+font-size: 12px;
+}
+
+
+.bottom-contact-img{
+height: 15px;
+margin-right: 10px;
+}
+.list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.year{
+font-weight: normal;
+}
+
+@media(max-width: 700px) {
+    .bottom-section {
+        display: none;
+    }
+}
